@@ -1,0 +1,1 @@
+Implementar en el sitio web de la Cámara Nacional de Exportadores de Bolivia – CANEB, módulos referentes a directorio de empresas exportadoras y de empresas de servicios logísticos, Generación de cuadros y gráficos estadísticos, Indicadores de comercio exterior y Publicación de boletines electrónicos
