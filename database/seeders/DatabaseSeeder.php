@@ -14,6 +14,10 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             DepartamentosSeeder::class,
+            BoletinEstadoSeeder::class,
+            BoletinCategoriaSeeder::class,
+            BoletinEsquemaSeeder::class,
+            ElementoBoletinSeeder::class,
         ]);
     }
 }

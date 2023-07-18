@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PortalWebController;
+use App\Http\Controllers\GraficosWebController;
 
 Route::controller(PortalWebController::class)->name('portal.')->group(function(){
     Route::get('/', 'inicio')->name('inicio');
@@ -20,4 +21,18 @@ Route::controller(PortalWebController::class)->name('portal.')->group(function()
     Route::get('/publicaciones/boletin/{id}', 'boletin')->name('boletin');
     Route::get('/contactos', 'contactos')->name('contactos');
     Route::post('/contactos/guardar', 'guardarContactoWeb')->name('guardarContactoWeb');
+});
+
+//---rutas para graficos
+Route::controller(GraficosWebController::class)->name('graph.')->group(function(){
+    Route::get('/graph/saldoComercial', 'saldoComercial')->name('saldoComercial');//saldo historico acumulado
+    Route::get('/graph/exportSector', 'exportSector')->name('exportSector');//export sectores de una gestion
+    Route::get('/graph/exportSectorComparativo', 'exportSectorComparativo')->name('exportSectorComparativo');//export sectores de 2 gestiones
+    Route::get('/graph/exportSectorHistorico', 'exportSectorHistorico')->name('exportSectorHistorico');//para generar un historial
+    Route::get('/graph/exportPrinProdPaiDepGes', 'exportPrinProdPaiDepGes')->name('exportPrinProdPaiDepGes');//para generar los x principales productos
+    
+    Route::get('/graph/importPrinProd', 'importPrinProd')->name('importPrinProd');//para generar los x principales productos
+    Route::get('/graph/importCuode', 'importCuode')->name('importCuode');//para cuode torta
+
+    Route::get('/tabla/exportTablaProdActividad', 'exportTablaProdActividad')->name('exportTablaProdActividad');//para tabla de datos
 });

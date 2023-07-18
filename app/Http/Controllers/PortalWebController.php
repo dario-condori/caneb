@@ -68,6 +68,7 @@ class PortalWebController extends Controller
     public function estadisticas()
     {
         $ous = new BLLcaneb();
+        $bolContenido = array();
 
         $query = DB::connection()->select($ous->datosBoletin(1));//---el 1 es siempre las estadisticas
         foreach ($query as $row) {
