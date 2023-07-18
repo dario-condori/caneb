@@ -33,8 +33,8 @@
                 <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Información</a>
                     <ul class="dropdown-menu">
                         <li><a href="{{ route('portal.guia_export') }}">Guía de Exportaciones</a></li>
-                        {{--<li><a href="{{ route('portal.estadisticas') }}">Estadísticas</a></li>
-                        <li><a href="{{ route('portal.direc_export') }}">Directorio de empresas</a></li>--}}
+                        {{--<li><a href="{{ route('portal.estadisticas') }}">Estadísticas</a></li>--}}
+                        <li><a href="{{ route('portal.direc_export') }}">Directorio de empresas</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Publicaciones</a>
