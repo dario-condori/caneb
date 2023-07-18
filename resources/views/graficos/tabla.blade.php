@@ -7,9 +7,9 @@
                 <th>{{$col}}</th>
                 @endforeach
             </tr>
-            {{$i=0}}
+            @php($i=0)
             @foreach($tabla['datos'] as $fila)
-            {{$i++}}
+            @php($i++)
             <tr>
                 @foreach($fila as $col)
                 @if($col)<th>{{$col}}</th>
