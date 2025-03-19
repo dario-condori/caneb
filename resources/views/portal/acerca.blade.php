@@ -120,7 +120,7 @@
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="features-item">
                             <div class="features-icon">
-                                <span><img src="{{ asset('portal/images/caneb/camaras/7_CADEX_POTOSI.png') }}" width="90px"></span>
+                                <span><img src="{{ asset('portal/images/caneb/camaras/7_CADEX_POTOSI.png') }}" width="80px"></span>
                             </div>
                             <h3 class="features-title font-alt">Potosí</h3>
                             <p>CADEX POTOSI – Cámara de Exportadores de Potosí.</p>
@@ -129,7 +129,7 @@
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="features-item">
                             <div class="features-icon">
-                                <span><img src="{{ asset('portal/images/caneb/camaras/1_CADEX_CH.png') }}" width="180px"></span>
+                                <span><img src="{{ asset('portal/images/caneb/camaras/1_CADEX_CH.png') }}" width="200px"></span>
                             </div>
                             <h3 class="features-title font-alt">Chuquisaca</h3>
                             <p>CADEX-CH – Cámara de Exportadores de Chuquisaca.</p>
@@ -158,7 +158,7 @@
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="features-item">
                             <div class="features-icon">
-                                <img src="{{ asset('portal/images/caneb/camaras/8_CADEXST.png') }}" width="150px">
+                                <img src="{{ asset('portal/images/caneb/camaras/8_CADEXST.png') }}" width="190px">
                             </div>
                             <h3 class="features-title font-alt">Tarija</h3>
                             <p>CADEX-ST – Cámara de Exportadores del Sur de Tarija.</p>
@@ -179,14 +179,14 @@
                     <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="count-item mb-sm-40">
                             <div class="count-icon"><span class="icon-linegraph"></span></div>
-                            <h3 class="count-to font-alt" data-countto="52">52</h3>
+                            <h3 class="count-to font-alt" data-countto="56">56</h3>
                             <h5 class="count-title font-serif">Años de experiencia</h5>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="count-item mb-sm-40">
                             <div class="count-icon"><span class="icon-map"></span></div>
-                            <h3 class="count-to font-alt" data-countto="8">8</h3>
+                            <h3 class="count-to font-alt" data-countto="9">9</h3>
                             <h5 class="count-title font-serif">Cámaras Departamentales</h5>
                         </div>
                     </div>

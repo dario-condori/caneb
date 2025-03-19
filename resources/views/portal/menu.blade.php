@@ -41,7 +41,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="{{ route('portal.anuarios') }}">Anuario</a></li>
                         <li><a href="{{ route('portal.boletinBilateral') }}">Boletines Bilaterales</a></li>
-                        {{--<li><a href="about1.html">Boletines</a></li>--}}
+                        <li><a href="{{ route('portal.boletinProducto') }}">Boletines de Productos</a></li>
                     </ul>
                 </li>
                 <li class=""><a href="#contacto">Contactanos</a></li>

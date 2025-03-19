@@ -104,9 +104,16 @@ class PortalWebController extends Controller
         return view('portal.anuarios');
     }
 
+    //---sector de boletines bilaterales
     public function boletinBilateral()
     {
         return view('portal.boletinesBilaterales');
+    }
+
+    //---sector de boletines de productos
+    public function boletinProducto()
+    {
+        return view('portal.boletinesProductos');
     }
 
     //---sector de publicaciones boletin especifico

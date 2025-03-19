@@ -36,31 +36,31 @@
                                     <div class="post-entry">
                                         <p>La balanza comercial entre Bolivia y Brasil ha mostrado una tendencia regular hacia saldos negativos, alcanzando un déficit de 86,19 millones de dólares en 2022 y 345,86 millones de dólares en 2023. Sin embargo, al analizar el período de enero a septiembre de los años 2023 y 2024, se observa un cambio significativo, registrándose un saldo positivo en este lapso. Este cambio es particularmente relevante, dado el comportamiento negativo en los años previos, y refleja una mejora potencial en las relaciones comerciales y en el desempeño de las exportaciones bolivianas hacia Brasil...</p>
                                     </div>
-                                    <div class="post-more"><a class="more-link" href="{{asset('/storage/boletines-bilaterales/Comercio_Bilateral_Bolivia_Brasil.pdf')}}" target="_blank">Ver nota completa</a></div>
+                                    <div class="post-more"><a class="more-link" href="{{asset('/storage/boletines-bilaterales/Comercio_Bilateral_Bolivia_Brasil.pdf')}}" target="_blank">Ver boletín</a></div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-6">
                                 <div class="post">
                                     <div class="post-header font-alt">
-                                        <h2 class="post-title"><a href="#">Exportadores observan con recelo la recuperación del las exportaciones</a></h2>
-                                        <div class="post-meta">| 24 Junio 2021</div>
+                                        <h2 class="post-title"><a href="#">Comercio Bilateral Bolivia-Uruguay 2024</a></h2>
+                                        <div class="post-meta">| 2024</div>
                                     </div>
                                     <div class="post-entry">
-                                        <p>El sector exportador informó que reciben con cautela los datos publicados por Instituto Nacional de Estadística – INE que muestran un crecimiento de las exportaciones del 51,2%....</p>
+                                        <p>La balanza comercial entre Bolivia y Uruguay, al analizarse a lo largo de los últimos diez años, ha mantenido una tendencia constante hacia un saldo negativo, evidenciando un déficit comercial persistente. Este déficit se ha acentuado en los dos últimos años, con un incremento del saldo negativo de -49,50 millones de dólares a -63,32 millones de dólares. Al comparar los períodos de enero a septiembre de 2023 y 2024, se observa una continuación de esta tendencia desfavorable, con el déficit ampliándose de -45,09 millones de dólares a -66,65 millones de dólares, lo que representa una variación porcentual de 47,81%...</p>
                                     </div>
-                                    <div class="post-more"><a class="more-link" href="#">Ver nota completa</a></div>
+                                    <div class="post-more"><a class="more-link" href="{{asset('/storage/boletines-bilaterales/Comercio_Bilateral_Bolivia_Uruguay.pdf')}}" target="_blank">Ver boletín</a></div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-6">
                                 <div class="post">
                                     <div class="post-header font-alt">
-                                        <h2 class="post-title"><a href="#">CANEB se reúne con el VICEPRESIDENTE</a></h2>
-                                        <div class="post-meta">| 17 Junio 2021</div>
+                                        <h2 class="post-title"><a href="#">Comercio Bilateral Bolivia-Paraguay 2024</a></h2>
+                                        <div class="post-meta">| 2024</div>
                                     </div>
                                     <div class="post-entry">
-                                        <p>El sector exportador nacional, representado por el presidente de CANEB, Danilo Velasco, celebró una reunión con el Vicepresidente del Estado Plurinacional de Bolivia, David desburocratización, logística y mercados....</p>
+                                        <p>La balanza comercial con Paraguay ha registrado un saldo negativo de manera constante desde 2018, con una tendencia creciente en los valores negativos a lo largo de los años, de 2018 a 2023. Este acontecimiento refleja un desajuste entre las importaciones y exportaciones, donde las importaciones han superado significativamente a las exportaciones, ampliando el déficit comercial de manera progresiva durante este período...</p>
                                     </div>
-                                    <div class="post-more"><a class="more-link" href="#">Ver nota completa</a></div>
+                                    <div class="post-more"><a class="more-link" href="{{asset('/storage/boletines-bilaterales/Comercio_Bilateral_Bolivia_Paraguay.pdf')}}" target="_blank">Ver boletín</a></div>
                                 </div>
                             </div>
                         </div>
