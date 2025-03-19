@@ -157,6 +157,7 @@
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="features-item">
+                            &nbsp;
                             <div class="features-icon">
                                 <img src="{{ asset('portal/images/caneb/camaras/8_CADEXST.png') }}" width="190px">
                             </div>
