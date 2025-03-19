@@ -48,7 +48,7 @@
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3">
                         <div class="module-subtitle font-serif">Fortalecemos el desarrollo integral empresarial para lograr una mayor oferta exportable, negocios más sencillos y mejores mercados.
-                            <a class="btn btn-g btn-round" href="portfolio_boxed_gutter_col_3.html"><i class="fa fa-cog fa-spin"></i> Conoce nuestras ofertas</a>
+                            <a class="btn btn-g btn-round" href="#"><i class="fa fa-cog fa-spin"></i> Conoce nuestras ofertas</a>
                         </div>
                     </div>
                 </div>
