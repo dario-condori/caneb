@@ -12,7 +12,6 @@ class PortalWebController extends Controller
     //---home de la pagina web
     public function inicio()
     {
-        
         return view('portal.inicio');
     }
 
@@ -103,6 +102,11 @@ class PortalWebController extends Controller
     public function anuarios()
     {
         return view('portal.anuarios');
+    }
+
+    public function boletinBilateral()
+    {
+        return view('portal.boletinesBilaterales');
     }
 
     //---sector de publicaciones boletin especifico

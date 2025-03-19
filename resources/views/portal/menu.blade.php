@@ -25,11 +25,11 @@
                         <li><a href="{{ route('portal.eventos') }}#eventos">Eventos</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Noticias</a>
+                {{-- <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Noticias</a>
                     <ul class="dropdown-menu">
                         <li><a href="{{ route('portal.notasPrensa')}}">Notas de prensa</a></li>
                     </ul>
-                </li>
+                </li> --}}
                 <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Información</a>
                     <ul class="dropdown-menu">
                         <li><a href="{{ route('portal.guia_export') }}">Guía de Exportaciones</a></li>
@@ -40,6 +40,7 @@
                 <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Publicaciones</a>
                     <ul class="dropdown-menu">
                         <li><a href="{{ route('portal.anuarios') }}">Anuario</a></li>
+                        <li><a href="{{ route('portal.boletinBilateral') }}">Boletines Bilaterales</a></li>
                         {{--<li><a href="about1.html">Boletines</a></li>--}}
                     </ul>
                 </li>

@@ -18,6 +18,7 @@ Route::controller(PortalWebController::class)->name('portal.')->group(function()
     Route::get('/informacion/guia-export', 'guiaExport')->name('guia_export');
     Route::get('/publicaciones', 'publicaciones')->name('publicaciones');
     Route::get('/publicaciones/anuarios', 'anuarios')->name('anuarios');
+    Route::get('/publicaciones/boletinBilateral', 'boletinBilateral')->name('boletinBilateral');
     Route::get('/publicaciones/boletin/{id}', 'boletin')->name('boletin');
     Route::get('/contactos', 'contactos')->name('contactos');
     Route::post('/contactos/guardar', 'guardarContactoWeb')->name('guardarContactoWeb');

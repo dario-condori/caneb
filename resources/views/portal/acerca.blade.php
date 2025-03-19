@@ -29,7 +29,7 @@
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3">
                         <h2 class="module-title font-alt">NUESTRAS AUTORIDADES</h2>
-                        <h1 class="consejo font-alt">Consejo Directivo Nacional</h1>
+                        <h1 class="consejo font-alt">COMITE EJECUTIVO 2023 - 2025</h1>
                         <h3 class="directorio">El Directorio de CANEB está compuesto por la representación de las Cámaras Departamentales, a través de sus Presidentes</h3>
                     </div>
                 </div>
@@ -37,10 +37,10 @@
                     <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-4" style="visibility: visible; animation-name: fadeInUp;">
                         <div class="team-item">
                             <div class="team-image">
-                                <img src="portal/images/caneb/danilo-velasco.png" width="150px">
+                                <img src="{{ asset('storage/directorio/Danilo_Velasco_Valdez.png') }}" width="150px">
                             </div>
                             <div class="team-descr font-alt">
-                                <div class="team-role">Presidente del Directorio</div>
+                                <div class="team-role">Presidente CANEB</div>
                                 <div class="team-name">Danilo Velasco Valdez</div>
                             </div>
                         </div>
@@ -48,22 +48,22 @@
                     <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-4" onclick="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                         <div class="team-item">
                             <div class="team-image">
-                                <img src="portal/images/caneb/oswaldo-barriga.png" width="150px">
+                                <img src="{{ asset('storage/directorio/Oswaldo_Barriga_Karlbaum.png') }}" width="150px">
                             </div>
                             <div class="team-descr font-alt">
-                                <div class="team-role">Primer Vice Presidente</div>
-                                <div class="team-name">Oswaldo Barriga</div>
+                                <div class="team-role">1er Vicepresidente CANEB</div>
+                                <div class="team-name">Oswaldo Barriga Karlbaum</div>
                             </div>
                         </div>
                     </div>
                     <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-4" onclick="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                         <div class="team-item">
                             <div class="team-image">
-                                <img src="portal/images/caneb/humberto-bohrt.png" width="150px">
+                                <img src="{{ asset('storage/directorio/Juan_Carlos_Avila_Solis.png') }}" width="150px">
                             </div>
                             <div class="team-descr font-alt">
-                                <div class="team-role">Segundo Vice Presidente - Tesorero</div>
-                                <div class="team-name">Humberto Bohrt</div>
+                                <div class="team-role">2do Vicepresidente y Tesorero CANEB</div>
+                                <div class="team-name">Juan Carlos Avila Solis</div>
                             </div>
                         </div>
                     </div>
@@ -79,76 +79,89 @@
                     </div>
                 </div>
                 <div class="row multi-columns-row">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="features-item">
                             <div class="features-icon">
-                                <img src="{{ asset('portal/images/caneb/cadex.png') }}" width="150px">
+                                <img src="{{ asset('portal/images/caneb/camaras/3_ CADEX.png') }}" width="150px">
                             </div>
                             <h3 class="features-title font-alt">Santa Cruz</h3>
                             <p>CADEX – Cámara de Esportadores, Logística y Promoción de Inversiones de Santa Cruz.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="features-item">
                             <div class="features-icon">
-                                <span><img src="{{ asset('portal/images/caneb/camex.png') }}" width="150px"></span>
+                                <span><img src="{{ asset('portal/images/caneb/camaras/9_CAMEX.png') }}" width="150px"></span>
                             </div>
                             <h3 class="features-title font-alt">La Paz</h3>
-                            <p>CAMEX – Cámara de Exportadores de La Paz.</p>
+                            <p>CAMEX – Cámara de Exportadores, Logística y Promoción de Inversiones de La Paz.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="features-item">
                             <div class="features-icon">
-                                <span><img src="{{ asset('portal/images/caneb/cadexco.png') }}" width="150px"></span>
+                                <span><img src="{{ asset('portal/images/caneb/camaras/2_CADEXCO.png') }}" width="150px"></span>
                             </div>
                             <h3 class="features-title font-alt">Cochabamba</h3>
-                            <p>CADEXCO – Cámara de Exportadores, Logística y Promoción de Inversiones de Cochabamba.</p>
+                            <p>CADEXCO – Cámara de Exportadores de Cochabamba.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                </div>
+                <div class="row multi-columns-row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="features-item">
                             <div class="features-icon">
-                                <span><img src="{{ asset('portal/images/caneb/cadexor.jpg') }}" width="130px"></span>
+                                <span><img src="{{ asset('portal/images/caneb/camaras/5_CADEXOR.png') }}" width="150px"></span>
                             </div>
                             <h3 class="features-title font-alt">Oruro</h3>
                             <p>CADEXOR – Cámara de Exportadores de Oruro.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="features-item">
                             <div class="features-icon">
-                                <span><img src="{{ asset('portal/images/caneb/cadexpo.png') }}" width="110px"></span>
+                                <span><img src="{{ asset('portal/images/caneb/camaras/7_CADEX_POTOSI.png') }}" width="90px"></span>
                             </div>
                             <h3 class="features-title font-alt">Potosí</h3>
-                            <p>CADEX-PO – Cámara de Exportadores de Potosí.</p>
+                            <p>CADEX POTOSI – Cámara de Exportadores de Potosí.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="features-item">
                             <div class="features-icon">
-                                <span><img src="{{ asset('portal/images/caneb/cadexch.png') }}" width="170px"></span>
+                                <span><img src="{{ asset('portal/images/caneb/camaras/1_CADEX_CH.png') }}" width="180px"></span>
                             </div>
                             <h3 class="features-title font-alt">Chuquisaca</h3>
                             <p>CADEX-CH – Cámara de Exportadores de Chuquisaca.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                </div>
+                <div class="row multi-columns-row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="features-item">
                             <div class="features-icon">
-                                <span><img src="{{ asset('portal/images/caneb/cadexnor.png') }}" width="130px"></span>
+                                <span><img src="{{ asset('portal/images/caneb/camaras/4_CADEXNOR.png') }}" width="80px"></span>
                             </div>
                             <h3 class="features-title font-alt">Beni</h3>
-                            <p>CADEXNOR – Cámara de Exportadores del Norte.</p>
+                            <p>CADEXNOR – Cámara de Empresarial, de Exportación, Logística, Servicios, Desarrollo, Educación, Ciencia y Tecnología del Norte.</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="features-item">
                             <div class="features-icon">
-                                <img src="{{ asset('portal/images/caneb/cadexpando.jpg') }}" width="130px">
+                                <img src="{{ asset('portal/images/caneb/camaras/6_CADEXPANDO.png') }}" width="140px">
                             </div>
                             <h3 class="features-title font-alt">Pando</h3>
-                            <p>CADEX-Pando – Cámara de Exportadores de Pando.</p>
+                            <p>CADEXPANDO – Cámara de Exportadores de Pando.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="features-item">
+                            <div class="features-icon">
+                                <img src="{{ asset('portal/images/caneb/camaras/8_CADEXST.png') }}" width="150px">
+                            </div>
+                            <h3 class="features-title font-alt">Tarija</h3>
+                            <p>CADEX-ST – Cámara de Exportadores del Sur de Tarija.</p>
                         </div>
                     </div>
                 </div>
