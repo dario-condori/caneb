@@ -12,17 +12,33 @@
                     </div>
                 </div>
                 <div class="row multi-columns-row post-columns">
+                    <div class="col-sm-12 col-md-2 col-lg-2"></div>
                     <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="post mb-20">
                             <div class="post-entry">
-                                <img src="{{asset('/storage/memorias/anuario-2023-1.png')}}" width="90%" alt="Anuario 2023">
+                                <img src="{{asset('/storage/memorias/anuario-2024.png')}}" width="90%" alt="Anuario 2024">
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="post mb-20">
                             <div class="post-entry">
-                                <img src="{{asset('/storage/memorias/anuario-2023-2.png')}}" width="90%" alt="Anuario 2023">
+                                <p class="module-title font-alt">Memoria Institucional 2024</p>
+                            </div>
+                            <div class="module-subtitle font-serif">
+                                <a class="btn btn-success btn-circle btn-round" href="{{ asset('/storage/memorias/anuario-2024.pdf') }}" target="_blank">
+                                    <i class="fa fa-cog fa-spin"></i> Descargar 2024
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row multi-columns-row post-columns">
+                    <div class="col-sm-12 col-md-2 col-lg-2"></div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="post mb-20">
+                            <div class="post-entry">
+                                <img src="{{asset('/storage/memorias/anuario-2023.png')}}" width="90%" alt="Anuario 2023">
                             </div>
                         </div>
                     </div>
@@ -40,17 +56,11 @@
                     </div>
                 </div>
                 <div class="row multi-columns-row post-columns">
+                    <div class="col-sm-12 col-md-2 col-lg-2"></div>
                     <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="post mb-20">
                             <div class="post-entry">
-                                <img src="{{asset('/storage/memorias/anuario-2022-1.png')}}" width="90%" alt="Anuario 2022">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="post mb-20">
-                            <div class="post-entry">
-                                <img src="{{asset('/storage/memorias/anuario-2022-2.png')}}" width="90%" alt="Anuario 2022">
+                                <img src="{{asset('/storage/memorias/anuario-2022.png')}}" width="90%" alt="Anuario 2022">
                             </div>
                         </div>
                     </div>
@@ -68,17 +78,11 @@
                     </div>
                 </div>
                 <div class="row multi-columns-row post-columns">
+                    <div class="col-sm-12 col-md-2 col-lg-2"></div>
                     <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="post mb-20">
                             <div class="post-entry">
-                                <img src="{{asset('/storage/memorias/anuario-2021-1.png')}}" width="90%" alt="Anuario 2021">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="post mb-20">
-                            <div class="post-entry">
-                                <img src="{{asset('/storage/memorias/anuario-2021-2.png')}}" width="90%" alt="Anuario 2021">
+                                <img src="{{asset('/storage/memorias/anuario-2021.png')}}" width="90%" alt="Anuario 2021">
                             </div>
                         </div>
                     </div>
@@ -96,17 +100,11 @@
                     </div>
                 </div>
                 <div class="row multi-columns-row post-columns">
+                    <div class="col-sm-12 col-md-2 col-lg-2"></div>
                     <div class="col-sm-12 col-md-4 col-lg-4">
                         <div class="post mb-20">
                             <div class="post-entry">
-                                <img src="{{asset('/storage/memorias/anuario-2020-1.png')}}" width="90%" alt="Anuario 2020">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="post mb-20">
-                            <div class="post-entry">
-                                <img src="{{asset('/storage/memorias/anuario-2020-2.png')}}" width="90%" alt="Anuario 2020">
+                                <img src="{{asset('/storage/memorias/anuario-2020.png')}}" width="90%" alt="Anuario 2020">
                             </div>
                         </div>
                     </div>
